@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-/*
-    Versão Mobile
-*/
+/* Versão Mobile */
 
 :root {
     --lilas: #5f2c82;
@@ -77,6 +75,8 @@ input#entrar {
 }
 input#entrar:hover {
     cursor: pointer;
+    background-color: var(--verde-claro);
+    border-color: var(--verde-claro);
 }
 .form .material-icons {
     text-align: center;
@@ -103,4 +103,7 @@ a {
 }
 p#esqueci .material-icons {
     font-size: 14px;
+}
+p#esqueci:hover {
+    background-color: var(--verde-claro);
 }

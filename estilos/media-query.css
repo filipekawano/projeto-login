@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Outras mídias */
+
+:root {
+    --lilas: #5f2c82;
+    --verde: #49a09d;
+    --verde-claro: #68e6e1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, var(--lilas), var(--verde));
+        background-attachment: fixed;
+    }
+    main > section#login {
+        width: 80vw;
+        columns: 2;
+    }
+    div#imagem {
+        height: 288px;
+        border-radius: 15px 0px 0px 15px;
+    }
+}
