@@ -9,20 +9,41 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
-}
-
-@media screen and (min-width: 992px) {
-    body {
+    main, body {
         background-image: linear-gradient(to bottom, var(--lilas), var(--verde));
         background-attachment: fixed;
     }
-    main > section#login {
-        width: 80vw;
-        columns: 2;
+    section#login {
+        width: 90vw;
     }
     div#imagem {
-        height: 288px;
+        float: left;
+        width: 30%;
+        height: 300px;
+    }
+    div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main, body {
+        background-image: linear-gradient(to bottom, var(--lilas), var(--verde));
+        background-attachment: fixed;
+    }
+    section#login {
+        width: 950px;
+    }
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 300px;
+    }
+    div#formulario {
+        float: left;
+        width: 50%;
+        height: 100%;
     }
     input {
         width: 90%;
