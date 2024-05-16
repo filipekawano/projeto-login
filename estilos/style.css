@@ -50,14 +50,14 @@ div#formulario {
 
 h1 {
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 p {
     font-size: 13px;
 }
 
-.form {
+.campo {
     background-color: var(--lilas);
     color: white;
     border-radius: 5px;
@@ -82,7 +82,7 @@ input#entrar:hover {
     background-color: var(--verde-claro);
     border-color: var(--verde-claro);
 }
-.form .material-icons {
+.campo .material-icons {
     position: absolute;
     top: 25%;
     left: 1.5%;
