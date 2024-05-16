@@ -27,10 +27,14 @@
     }
     input {
         font-size: 15.5px;
+        transform: translateY(-11px);
     }
     p {
         font-size: 15.5px;
-    }    
+    }
+    p#esqueci {
+        padding: 7px;
+    }        
 }
 
 @media screen and (min-width: 992px) {
@@ -53,8 +57,14 @@
     input {
         width: 90%;
         font-size: 18px;
+        transform: translateY(-11px);
     }
     p {
         font-size: 18px;
+    }
+
+    
+    p#esqueci {
+        padding: 5px;
     }    
 }

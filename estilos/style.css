@@ -28,12 +28,13 @@ section#login {
     width: 250px;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
     overflow: hidden;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+
 }
 
 div#imagem {
@@ -62,45 +63,50 @@ p {
     color: white;
     border-radius: 5px;
     margin: 5px 0px;
-    position: relative;
+    height: 42px;
+    border: solid var(--lilas);
+    border-width: 2px 0.3px;
+}
+.campo .material-icons {
+    width: 40px;
+    padding: 5px;
+    font-size: 2em;
+}
+.campo > input:focus-within {
+    background-color: white;
+    outline: none;
 }
 input {
     background-color: var(--verde-claro);
     height: 40px;
     border-radius: 8px;
-    border: 2px solid var(--lilas);
+    border: none;
+    width: calc(100% - 44.4px);
+    padding: 4px;
+    transform: translateY(-12px);
 }
 input#entrar {
     background-color: var(--verde);
     color: white;
     width: 100%;
     border-radius: 5px;
-    border-color: var(--verde);
+    border: none;
+    transform: none;
 }
 input#entrar:hover {
     cursor: pointer;
-    background-color: var(--verde-claro);
-    border-color: var(--verde-claro);
-}
-.campo .material-icons {
-    position: absolute;
-    top: 25%;
-    left: 1.5%;
-}
-label, span {
-    display: inline-block;
-    width: 31px;
+    background-color: #316966;
 }
 
 p#esqueci {
-    height: 40px;
+    height: 40px;  
     margin-top: 5px;
     padding: 10px;
     text-align: center;
     border: 1px solid var(--verde);
     border-radius: 5px;
 }
-a {
+a.botao {
     text-decoration: none;
     color: var(--verde);
 }
@@ -108,5 +114,6 @@ p#esqueci .material-icons {
     font-size: 14px;
 }
 p#esqueci:hover {
-    background-color: var(--verde-claro);
+    background-color: #5bcac7;
+    color: white;
 }
